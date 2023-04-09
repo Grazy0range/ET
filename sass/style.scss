@@ -1,0 +1,14 @@
+body {
+  font-family: "Kanit", sans-serif;
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: #000000;
+  color: #fff;
+}
+
+@import "header";
+@import "info";
+@import "event__video";
+@import "artists";
+@import "hall";
+@import "tickets";

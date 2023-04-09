@@ -1,0 +1,52 @@
+.hall {
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+  background: #000 no-repeat url(img/ElephantTrunk_Site_BG2.jpg);
+  background-position: center;
+  background-size: cover;
+  z-index: 111111111111111;
+  text-align: center;
+  padding: 50px 0 0 0;
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .hall__title {
+      margin: 0 0 40px 0;
+      font-size: 2.5em;
+      text-align: center;
+    }
+    .hall__top {
+      display: flex;
+      width: 80%;
+      margin: 0 auto;
+      align-items: center;
+      padding: 100px 0;
+      height: 100%;
+    }
+    .hall__info {
+      width: 50%;
+      font-size: 1.2em;
+      .title {
+        font-weight: 700;
+        line-height: 1.4em;
+        display: block;
+      }
+      .descr {
+        line-height: 1.5em;
+      }
+    }
+    .hall__logo {
+      width: 50%;
+      img {
+        width: 250px;
+      }
+    }
+    .hall__bottom {
+      background-color: rgba(0, 0, 0, 0.9);
+      padding: 50px 0;
+      height: 100%;
+    }
+  }
+}

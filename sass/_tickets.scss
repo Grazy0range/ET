@@ -1,0 +1,22 @@
+.tickets {
+  background-color: #000;
+  text-align: center;
+  .tickets__title {
+    margin: 0 0 40px 0;
+    font-size: 2.5em;
+  }
+  .tickets__list {
+    padding-left: 0;
+    list-style-type: none;
+    margin: 0;
+    .tickets__item {
+      background-color: #333;
+      width: 33%;
+      .item__title {
+        font-size: 3rem;
+        line-height: 1.1;
+        color: #26e9e3;
+      }
+    }
+  }
+}
