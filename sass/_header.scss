@@ -7,10 +7,20 @@
   #mainVideo {
     min-width: 100%;
     height: 100vh;
-    position: fixed;
+    position: relative;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
     z-index: -1000000;
+  }
+  .main__photo {
+    position: fixed;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 0;
+    z-index: -1;
+    img {
+      width: 100%;
+    }
   }
 }
