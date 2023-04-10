@@ -214,11 +214,17 @@
   .event__video {
     height: 50vh;
     .container {
+      .event__video_title {
+        font-size: 2em;
+      }
       iframe {
         width: 90% !important;
         height: 250px;
       }
     }
+  }
+  .artists__title {
+    font-size: 2em !important;
   }
   .artists__img {
     width: 100% !important;
@@ -228,6 +234,9 @@
   }
   .hall {
     .container {
+      .hall__title {
+        font-size: 2em;
+      }
       .hall__top {
         flex-direction: column-reverse;
         padding: 20px 0 100px;
@@ -236,6 +245,9 @@
         }
         .hall__logo {
           margin-bottom: 50px;
+          img {
+            width: 150px;
+          }
         }
       }
     }
@@ -247,6 +259,9 @@
   }
   .tickets {
     .container {
+      .tickets__title {
+        font-size: 2em;
+      }
       .tickets__list {
         flex-wrap: wrap;
         justify-content: space-around;
@@ -263,6 +278,9 @@
   .gallery {
     padding-bottom: 50px;
     .container {
+      .gallery__title {
+        font-size: 2em;
+      }
       .gallery__slider {
         height: 200px;
         div {
@@ -272,13 +290,13 @@
           }
         }
         .owl-prev {
-          transform: translate(-160px, -140px);
+          transform: translate(-160px, -125px);
           span {
             font-size: 50px;
           }
         }
         .owl-next {
-          transform: translate(160px, -140px);
+          transform: translate(160px, -125px);
           span {
             font-size: 50px;
           }
