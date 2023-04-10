@@ -14,10 +14,9 @@
       img {
         height: 500px;
         border-radius: 25px;
+        width: auto;
+        margin: 0 auto;
       }
-    }
-    .owl-stage {
-      display: flex;
     }
     .owl-prev {
       transform: translate(-450px, -270px);

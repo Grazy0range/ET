@@ -3,9 +3,9 @@ $(document).ready(function(){
         loop:true,
         nav:true,
         center: true,
-        autoWidth:true,
-        items:3,
-        margin:1250,
+        autoWidth:false,
+        items:1,
+        margin:0,
         dots: true,
     });
   });

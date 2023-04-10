@@ -2,6 +2,7 @@
   background-color: rgba(0, 0, 0, 0.9);
   text-align: center;
   padding: 50px 0;
+
   .tickets__title {
     margin: 0 0 40px 0;
     font-size: 2.5em;
@@ -13,6 +14,7 @@
     margin: 0;
     display: flex;
     justify-content: space-between;
+
     .tickets__item {
       background-color: #333;
       width: 30%;
@@ -24,6 +26,7 @@
       box-sizing: border-box;
       border-radius: 10px;
       height: 600px;
+      font-family: "Franklin_Gothic_Demi", sans-serif;
       .item__title {
         font-size: 3rem;
         line-height: 1.1;
@@ -46,13 +49,13 @@
         .info__descr {
           margin-bottom: 15px;
           position: relative;
-          &::before {
-            content: "\f00c";
-            font-family: "Font Awesome 5 Free";
-            position: absolute;
-            color: white;
-            left: -15px;
-          }
+          // &::before {
+          //   content: "\f00c";
+          //   font-family: "Font Awesome 5 Free";
+          //   position: absolute;
+          //   color: white;
+          //   left: -15px;
+          // }
         }
       }
     }
