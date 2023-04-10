@@ -21,3 +21,21 @@ $(document).ready(function(){
         dots: true,
     });
   });
+
+
+  Object.defineProperty(HTMLMediaElement.prototype, 'playing', {
+    get: function () {
+        return !!(this.currentTime > 0 && !this.paused && !this.ended && this.readyState > 2);
+    }});
+
+    $('body').on('click touchstart', function () {
+      const videoElement = document.getElementById('mainVideo');
+      if (videoElement.playing) {
+          // video is already playing so do nothing
+      }
+      else {
+          // video is not playing
+          // so play video now
+          videoElement.play();
+      }
+});
