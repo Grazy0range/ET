@@ -7,40 +7,79 @@
   background-size: cover;
   z-index: 111111111111111;
   text-align: center;
-  padding: 50px 0 0 0;
+  padding: 50px 0 50px 0;
   .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
     .hall__title {
       margin: 0 0 40px 0;
       font-size: 2.5em;
       text-align: center;
+      display: block;
+      width: 100%;
     }
     .hall__top {
       display: flex;
-      width: 80%;
+      flex-direction: column-reverse;
+      width: 50%;
       margin: 0 auto;
       align-items: center;
-      padding: 100px 0;
+      padding: 50px 0 100px;
       height: 100%;
-    }
-    .hall__info {
-      width: 50%;
-      font-size: 1.2em;
-      .title {
-        font-weight: 700;
-        line-height: 1.4em;
-        display: block;
+
+      .hall__info {
+        width: 100%;
+        font-size: 1.2em;
+        .title {
+          font-weight: 700;
+          line-height: 1.4em;
+          display: block;
+        }
+        .descr {
+          line-height: 1.5em;
+        }
       }
-      .descr {
-        line-height: 1.5em;
+      .hall__logo {
+        width: 50%;
+        margin-bottom: 45px;
+        img {
+          width: 250px;
+        }
       }
     }
-    .hall__logo {
+    .hall__owl {
       width: 50%;
-      img {
-        width: 250px;
+      .hall__slider {
+        div {
+          border-radius: 20px;
+          img {
+            border-radius: 20px;
+          }
+        }
+        .owl-dots {
+          display: flex;
+          width: 100px;
+          justify-content: space-between;
+          margin: 15px auto 0;
+          .owl-dot {
+            span {
+              width: 10px !important;
+              height: 10px !important;
+              border: 1px solid #f77100;
+              display: inline-block;
+              border-radius: 50%;
+            }
+          }
+          .active {
+            background-color: #f77100;
+            border-radius: 50%;
+            width: 15px;
+            height: 15px;
+          }
+        }
       }
     }
     .hall__bottom {
