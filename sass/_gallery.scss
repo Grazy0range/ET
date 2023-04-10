@@ -17,10 +17,7 @@
       }
     }
     .owl-stage {
-      display: -webkit-box;
-      display: -moz-box;
-      display: -ms-box;
-      display: box;
+      display: flex;
     }
     .owl-prev {
       transform: translate(-450px, -270px);
