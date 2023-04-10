@@ -1,9 +1,16 @@
 body {
-  font-family: "Kanit", sans-serif;
+  font-family: "Secular One", sans-serif;
   box-sizing: border-box;
   font-size: 16px;
   background-color: #000000;
   color: #fff;
+}
+.container {
+  width: 1620px;
+  margin: 0 auto;
+}
+.buy__button {
+  transition: all 0.3s;
 }
 
 @import "header";
@@ -12,3 +19,6 @@ body {
 @import "artists";
 @import "hall";
 @import "tickets";
+@import "gallery";
+@import "footer";
+@import "media";

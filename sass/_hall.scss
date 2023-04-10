@@ -50,3 +50,10 @@
     }
   }
 }
+.hall__img {
+  background-color: rgba(0, 0, 0, 0.9);
+  .hall__bottom {
+    display: flex;
+    justify-content: center;
+  }
+}

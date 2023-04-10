@@ -7,9 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="src/css/blocks/normalize.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous" />
+    <link rel="stylesheet" href="src/css/blocks/owl.carousel.min.css">
+    <link rel="stylesheet" href="src/css/blocks/owl.theme.default.min.css">
     <link rel="stylesheet" type="text/css" href="src/css/blocks/style.min.css">
+    <script src="https://use.fontawesome.com/985b5e955e.js"></script>
     <title>Document</title>
 </head>
 
@@ -23,7 +28,7 @@
                 <img src="../ET/src/css/blocks/img/ElephantTrunk_Site_Info.png" alt="info">
             </div>
             <div class="main__button">
-                <button type="button" style="color: #ffffff; " class="tc-background-orange"
+                <button type="button" style="color: #ffffff; " class="tc-background-orange buy__button"
                     data-tc-event="642fd50279ba7ba1490192ab"
                     data-tc-token="eyJhbGciOiJIUzI1NiIsImlzcyI6InRpY2tldHNjbG91ZC5ydSIsInR5cCI6IkpXVCJ9.eyJwIjoiNjQyZTk2YjA5YjkxYjExMGFhMDllOTFjIn0.7-hRF1AZT_Sr4w6sWtvkh6lvhDtJKyeA7hlulOnSpkY">Купить
                     билет</button>
@@ -33,7 +38,6 @@
     <section class="info">
         <div class="container">
             <div class="info__text">
-
                 Хэй, Elephant Trunk! 3 июня мы возвращаемся в столицу с нашей новой крышесносной Drum&Bass вечеринкой!
                 Совершенно новое место проведения, 9 разнообразных артистов за одну ночь, световое и лазерное шоу,
                 приятные сюрпризы и многое другое, специально для вас. Устал от рутины и однообразия? Тода тебе к нам:
@@ -47,6 +51,7 @@
     </section>
     <section class="event__video">
         <div class="container">
+            <h2 class="event__video_title">Видео</h2>
             <iframe src="https://vk.com/video_ext.php?oid=-214069280&id=456239142&hash=6e0f820e009cf51a&hd=2"
                 width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture;"
                 frameborder="0" allowfullscreen class="event__video_content"></iframe>
@@ -86,9 +91,11 @@
                     <img src="../ET/src/css/blocks/img/pravda-logo-white.png" alt="hall__logo">
                 </div>
             </div>
-            <div class="hall__bottom">
-                <img src="../ET/src/css/blocks/img/ElephantTrunk_Site_Scheme.png" alt="Scheme">
-            </div>
+        </div>
+    </section>
+    <section class="hall__img">
+        <div class="hall__bottom">
+            <img src="../ET/src/css/blocks/img/ElephantTrunk_Site_Scheme.png" alt="Scheme">
         </div>
     </section>
     <section class="tickets">
@@ -105,7 +112,35 @@
                         <div class="info__descr">Пребывание в зоне танцевального партера</div>
                         <div class="info__descr">Бары, туалеты на 2 этаже клуба</div>
                     </div>
-                    <button type="button" style="color: #ffffff; " class="tc-background-orange"
+                    <button type="button" style="color: #ffffff; " class="tc-background-orange buy__button"
+                        data-tc-event="642fd50279ba7ba1490192ab"
+                        data-tc-token="eyJhbGciOiJIUzI1NiIsImlzcyI6InRpY2tldHNjbG91ZC5ydSIsInR5cCI6IkpXVCJ9.eyJwIjoiNjQyZTk2YjA5YjkxYjExMGFhMDllOTFjIn0.7-hRF1AZT_Sr4w6sWtvkh6lvhDtJKyeA7hlulOnSpkY">Купить
+                        билет</button>
+                </li>
+                <li class="tickets__item">
+                    <div class="item__title">VIP</div>
+                    <div class="item__price"> <span> от </span> 1600 <span> руб</span></div>
+                    <div class="item__info">
+                        <div class="info__descr">Отдельный гардероб, бар и туалеты</div>
+                        <div class="info__descr">Комфортабельная VIP зона на 2 этаже с мягкими стульями и барным столом
+                        </div>
+                        <div class="info__descr">Отличный вид на зал и сцену</div>
+                    </div>
+                    <button type="button" style="color: #ffffff; " class="tc-background-orange buy__button"
+                        data-tc-event="642fd50279ba7ba1490192ab"
+                        data-tc-token="eyJhbGciOiJIUzI1NiIsImlzcyI6InRpY2tldHNjbG91ZC5ydSIsInR5cCI6IkpXVCJ9.eyJwIjoiNjQyZTk2YjA5YjkxYjExMGFhMDllOTFjIn0.7-hRF1AZT_Sr4w6sWtvkh6lvhDtJKyeA7hlulOnSpkY">Купить
+                        билет</button>
+                </li>
+                <li class="tickets__item">
+                    <div class="item__title">Super VIP</div>
+                    <div class="item__price"> <span> от </span> 1800 <span> руб</span></div>
+                    <div class="item__info">
+                        <div class="info__descr">Все VIP привилегии</div>
+                        <div class="info__descr">Комфортабельная Super VIP зона на 2 этаже с мягкими диванами и
+                            индивидуальными столиками, закрепленными за вами</div>
+                        <div class="info__descr">Лучший вид на зал и сцену</div>
+                    </div>
+                    <button type="button" style="color: #ffffff; " class="tc-background-orange buy__button"
                         data-tc-event="642fd50279ba7ba1490192ab"
                         data-tc-token="eyJhbGciOiJIUzI1NiIsImlzcyI6InRpY2tldHNjbG91ZC5ydSIsInR5cCI6IkpXVCJ9.eyJwIjoiNjQyZTk2YjA5YjkxYjExMGFhMDllOTFjIn0.7-hRF1AZT_Sr4w6sWtvkh6lvhDtJKyeA7hlulOnSpkY">Купить
                         билет</button>
@@ -113,6 +148,45 @@
             </ul>
         </div>
     </section>
+    <section class="gallery">
+        <div class="container">
+            <div class="gallery__title">
+                Галлерея
+            </div>
+            <div class="owl-carousel gallery__slider">
+                <div>
+                    <img src="../ET/src/css/blocks/img/1.jpg" alt="1">
+                </div>
+                <div>
+                    <img src="../ET/src/css/blocks/img/2.jpg" alt="2">
+                </div>
+                <div>
+                    <img src="../ET/src/css/blocks/img/3.jpg" alt="3">
+                </div>
+                <div>
+                    <img src="../ET/src/css/blocks/img/4.jpg" alt="4">
+                </div>
+                <div>
+                    <img src="../ET/src/css/blocks/img/5.jpg" alt="5">
+                </div>
+                <div>
+                    <img src="../ET/src/css/blocks/img/6.jpg" alt="6">
+                </div>
+                <div>
+                    <img src="../ET/src/css/blocks/img/7.jpg" alt="7">
+                </div>
+                <div>
+                    <img src="../ET/src/css/blocks/img/8.jpg" alt="8">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <img src="../ET/src/css/blocks/img/Trunk_horizontal.png" alt="logo">
+        </div>
+    </footer>
 
 
 
@@ -139,6 +213,9 @@
         </noscript>
         <!— /Yandex.Metrika counter —>
             <script src="https://ticketscloud.com/static/scripts/widget/tcwidget.js"></script>
+            <script src="js/jquery.js"></script>
+            <script src="js/owl.carousel.min.js"></script>
+            <script src="js/main.js"></script>
 </body>
 
 </html>
