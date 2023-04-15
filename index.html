@@ -5,28 +5,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="03.06 Elephant Trunk - Pravda" />
+    <meta property="og:image" content="src/css/blocks/img/ElephantTrunk_537x240_1.jpg" />
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <link rel="icon" href="src/css/blocks/img/favicon.ico"> <!-- 32×32 -->
+    <link rel="apple-touch-icon" href="src/css/blocks/img/apple-touch-icon.png"> <!-- 180×180 -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="src/css/blocks/normalize.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
         integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="src/css/blocks/owl.carousel.min.css">
     <link rel="stylesheet" href="src/css/blocks/owl.theme.default.min.css">
+    <link rel="stylesheet" href="src/css/blocks/animate.css">
     <link rel="stylesheet" type="text/css" href="src/css/blocks/style.min.css">
-    <script src="https://use.fontawesome.com/985b5e955e.js"></script>
-    <title>Document</title>
+    <title>03.06 Elephant Trunk - Pravda</title>
 </head>
 
-<body>
-    <section class="main">
+<body class="loaded_hiding">
+    <div class="preloader">
+        <svg class="preloader__image" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <path fill="#f77100"
+                d="M304 48c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48zm-48 368c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zm208-208c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zM96 256c0-26.51-21.49-48-48-48S0 229.49 0 256s21.49 48 48 48 48-21.49 48-48zm12.922 99.078c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.491-48-48-48zm294.156 0c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.49-48-48-48zM108.922 60.922c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.491-48-48-48z">
+            </path>
+        </svg>
+    </div>
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header__desk">
+                <a href="https://etdnb.ru/" class="header__logo">
+                    <img src="../ET/src/css/blocks/img/Trunk_horizontal.png" alt="logo" class="logo">
+                </a>
+                <ul class="header__list">
+                    <li class="header__item"><a href="#event__video" class="header__link">Aftermovie</a></li>
+                    <li class="header__item"><a href="#artists" class="header__link">Артисты</a></li>
+                    <li class="header__item"><a href="#hall" class="header__link">Площадка</a></li>
+                    <li class="header__item"><a href="#tickets" class="header__link">Билеты</a></li>
+                </ul>
+                <ul class="header__social">
+                    <li class="header__item"><a href="https://vk.com/topic-214069280_49317692" target="_blank"
+                            class="header__link">Правила поведения в клубе</a></li>
+                    <li class="header__item"><a href="https://vk.com/etfestival" target="_blank" class="header__link">
+                            <img src="../ET/src/css/blocks/img/pngwing.com.png" alt="vk">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header__mob">
+                <a href="https://etdnb.ru/" class="header__logo">
+                    <img src="../ET/src/css/blocks/img/Trunk_horizontal.png" alt="logo" class="logo">
+                </a>
+                <div class="menu__icon">
+                    <span></span>
+                </div>
+                <nav class="menu__body">
+                    <div class="menu__list">
+                        <div class="menu__item"><a href="#event__video" class="menu__link">Aftermovie</a></div>
+                        <div class="menu__item"><a href="#artists" class="menu__link">Артисты</a></div>
+                        <div class="menu__item"><a href="#hall" class="menu__link">Площадка</a></div>
+                        <div class="menu__item"><a href="#tickets" class="menu__link">Билеты</a></div>
+                        <div class="menu__item"><a href="https://vk.com/topic-214069280_49317692" target="_blank"
+                                class="menu__link">Правила поведения в клубе</a></div>
+                        <div class="menu__item"><a href="https://vk.com/etfestival" target="_blank"
+                                class="menu__link"><img src="../ET/src/css/blocks/img/pngwing.com.png" alt="vk"></a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="main" id="main">
         <div class="container">
             <video autoplay playsinline muted loop id="mainVideo">
-                <source src="video/ElephantTrunk_SiteBG_HQ (1).mp4" type="video/mp4">
+                <source src="video/ElephantTrunk_SiteBG_HQ.mp4" type="video/mp4">
                 Your browser does not support HTML5 video.
             </video>
             <div class="main__photo">
-                <img src="../ET/src/css/blocks/img/ElephantTrunk_Site_Info.png" alt="info">
+                <div class="main__photo_wrapper">
+                    <img src="../ET/src/css/blocks/img/ElephantTrunk_Site_Info.png" alt="info">
+                </div>
             </div>
             <div class="main__button">
                 <button type="button" style="color: #ffffff; " class="tc-background-orange buy__button"
@@ -36,9 +95,9 @@
             </div>
         </div>
     </section>
-    <section class="info">
+    <section class="info" id="info">
         <div class="container">
-            <div class="info__text">
+            <div class="info__text wow animate__backInUp">
                 Хэй, Elephant Trunk! <br> 3 июня мы возвращаемся в столицу с нашей новой крышесносной Drum&Bass
                 вечеринкой! <br><br>
                 <span> Совершенно новое место проведения, 9 разнообразных артистов за одну ночь, световое и лазерное
@@ -55,7 +114,7 @@
             </div>
         </div>
     </section>
-    <section class="event__video">
+    <section class="event__video" id="event__video">
         <div class="container">
             <!-- <h2 class="event__video_title">Видео</h2> -->
             <iframe width="700" height="450" src="https://www.youtube.com/embed/cawuYylKiT8"
@@ -64,22 +123,22 @@
                 allowfullscreen class="event__video_content"></iframe>
         </div>
     </section>
-    <section class="artists">
+    <section class="artists" id="artists">
         <div class="container">
             <h2 class="artists__title">
                 Артисты
             </h2>
-            <div class="artists__img">
+            <div class="artists__img wow animate__fadeInLeftBig">
                 <img src="../ET/src/css/blocks/img/ElephantTrunk_Site_Artists.png" alt="artists">
             </div>
         </div>
     </section>
-    <section class="hall">
+    <section class="hall" id="hall">
         <div class="container">
             <h2 class="hall__title">
                 Площадка
             </h2>
-            <div class="hall__top">
+            <div class="hall__top wow animate__fadeInLeftBig">
                 <div class="hall__info">
                     <span class="title"> КЛУБ PRAVDA</span>
                     <span class="descr">
@@ -95,10 +154,12 @@
                     </span>
                 </div>
                 <div class="hall__logo">
-                    <img src="../ET/src/css/blocks/img/pravda-logo-white.png" alt="hall__logo">
+                    <div class="hall__logo_wrapper">
+                        <img src="../ET/src/css/blocks/img/pravda-logo-white.png" alt="hall__logo">
+                    </div>
                 </div>
             </div>
-            <div class="hall__owl">
+            <div class="hall__owl wow animate__fadeInRightBig">
                 <div class="owl-carousel hall__slider">
                     <div>
                         <img src="../ET/src/css/blocks/img/q.jpg" alt="1">
@@ -117,16 +178,16 @@
         </div>
     </section>
     <section class="hall__img">
-        <div class="hall__bottom">
+        <div class="hall__bottom wow animate__zoomIn">
             <img src="../ET/src/css/blocks/img/ElephantTrunk_Site_Scheme.png" alt="Scheme">
         </div>
     </section>
-    <section class="tickets">
+    <section class="tickets" id="tickets">
         <div class="container">
             <h2 class="tickets__title">
                 Билеты
             </h2>
-            <ul class="tickets__list">
+            <ul class="tickets__list wow animate__backInUp">
                 <li class="tickets__item">
                     <div class="item__title">Стандарт</div>
                     <div class="item__price"> <span> от </span> 800 <span> руб</span></div>
@@ -201,27 +262,60 @@
                 <div>
                     <img src="../ET/src/css/blocks/img/8.jpg" alt="8">
                 </div>
+                <div>
+                    <img src="../ET/src/css/blocks/img/9.jpg" alt="9">
+                </div>
+                <div>
+                    <img src="../ET/src/css/blocks/img/10.jpg" alt="10">
+                </div>
+                <div>
+                    <img src="../ET/src/css/blocks/img/11.jpg" alt="11">
+                </div>
+                <div>
+                    <img src="../ET/src/css/blocks/img/12.jpg" alt="12">
+                </div>
+                <div>
+                    <img src="../ET/src/css/blocks/img/13.jpg" alt="13">
+                </div>
+                <div>
+                    <img src="../ET/src/css/blocks/img/14.jpg" alt="14">
+                </div>
+                <div>
+                    <img src="../ET/src/css/blocks/img/15.jpg" alt="15">
+                </div>
 
             </div>
         </div>
     </section>
     <footer class="footer">
         <div class="container">
-            <img src="../ET/src/css/blocks/img/Trunk_horizontal.png" alt="logo">
+            <div class="footer__wrapper">
+                <img src="../ET/src/css/blocks/img/Trunk_horizontal.png" alt="logo">
+            </div>
         </div>
     </footer>
 
+
+    <script>
+        window.onload = function () {
+            document.body.classList.add('loaded_hiding');
+            window.setTimeout(function () {
+                document.body.classList.add('loaded');
+                document.body.classList.remove('loaded_hiding');
+            }, 500);
+        }
+    </script>
 
 
 
     <!— Yandex.Metrika counter —>
         <script type="text/javascript">
-            (function (m, e, t, r, i, k, a) {
-                m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
-                m[i].l = 1 * new Date();
-                for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
-                k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
-            })
+                (function (m, e, t, r, i, k, a) {
+                    m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+                    m[i].l = 1 * new Date();
+                    for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
+                    k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+                })
                 (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
             ym(93133727, "init", {
@@ -238,6 +332,7 @@
             <script src="https://ticketscloud.com/static/scripts/widget/tcwidget.js"></script>
             <script src="js/jquery.js"></script>
             <script src="js/owl.carousel.min.js"></script>
+            <script src="js/wow.min.js"></script>
             <script src="js/main.js"></script>
 </body>
 

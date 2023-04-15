@@ -1,3 +1,15 @@
+html {
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: #333333;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #000000;
+}
 body {
   font-family: "Impact", sans-serif;
   box-sizing: border-box;
@@ -12,8 +24,16 @@ body {
 .buy__button {
   transition: all 0.3s;
 }
+.tc-widget-frame_popup {
+  z-index: 99999999999999999999999999999999 !important;
+}
+// .lock {
+//   height: 100vh;
+//   overflow: hidden;
+// }
 
 @import "header";
+@import "main";
 @import "fonts";
 @import "info";
 @import "event__video";
@@ -23,3 +43,4 @@ body {
 @import "gallery";
 @import "footer";
 @import "media";
+@import "preloader";

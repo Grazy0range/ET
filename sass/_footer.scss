@@ -6,8 +6,11 @@
   .container {
     display: flex;
     justify-content: center;
-    img {
-      width: 30%;
+    .footer__wrapper {
+      text-align: center;
+      img {
+        width: 30%;
+      }
     }
   }
 }
