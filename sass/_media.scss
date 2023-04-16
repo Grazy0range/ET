@@ -13,7 +13,7 @@
     font-size: 1rem !important;
   }
   .header__social {
-    width: 25% !important;
+    width: 10% !important;
   }
   .artists__img {
     width: 1100px !important;
@@ -39,7 +39,7 @@
     font-size: 1rem !important;
   }
   .header__social {
-    width: 30% !important;
+    width: 10% !important;
   }
   .main {
     height: 100%;
@@ -164,6 +164,13 @@
   }
   .main {
     padding: 50px 0;
+    .main__photo {
+      .main__photo_wrapper {
+        img {
+          width: 80% !important;
+        }
+      }
+    }
   }
   .event__video {
     .container {
@@ -258,7 +265,7 @@
     .container {
       .main__photo {
         img {
-          width: 100%;
+          width: 100% !important;
         }
       }
     }
@@ -267,6 +274,8 @@
     .container {
       .info__text {
         width: 100%;
+        font-size: 1.2em;
+        line-height: 1.4em;
       }
     }
   }
