@@ -38,6 +38,8 @@
             color: white;
             font-size: 1.2rem;
             transition: all 0.3s;
+            display: flex;
+            align-items: center;
             &:hover {
               color: #d15c00;
             }
@@ -65,12 +67,16 @@
             height: auto;
             font-size: 1.2rem;
             transition: all 0.3s;
+            display: flex;
+            align-items: center;
             &:hover {
               color: #d15c00;
             }
             img {
-              width: 40px;
-              height: 40px;
+              width: 30px;
+              height: 30px;
+              display: inline-block;
+              margin-left: 10px;
             }
           }
           &:last-child {
@@ -192,6 +198,8 @@
               letter-spacing: 0.15px;
               color: #ffffff;
               text-decoration: none;
+              display: flex;
+              align-items: center;
               img {
                 width: 30px;
                 height: 30px;
